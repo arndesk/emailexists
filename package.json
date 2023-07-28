@@ -1,0 +1,38 @@
+{
+  "name": "@arndesk/emailexists",
+  "version": "1.0.0",
+  "description": "A NodeJS library for checking if an email address exists without sending any email.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "@arndesk/awaitdelay": "^1.1.0"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arndesk/emailexists"
+  },
+  "engines": {
+		"node": ">=8"
+	},
+  "keywords": [
+    "email",
+    "exist",
+    "bounce",
+    "email exist",
+    "email exists",
+    "email bounce",
+    "email validation",
+    "email verify",
+    "check email",
+    "mx records"
+  ],
+	"author": {
+		"name": "Arnob Arjun",
+		"email": "mauraiz55@gmail.com"
+	},
+  "license": "MIT",
+  "homepage": "https://github.com/arndesk/emailexists#readme"
+}
